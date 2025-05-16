@@ -36,3 +36,6 @@ reports/*
 
 # Output
 *.log
+
+# Kaggle key
+kaggle.json

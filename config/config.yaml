@@ -5,6 +5,8 @@ paths:
   reports: reports/
 
 data:
+  kaggle_dataset: mexwell/smart-home-energy-consumption
+  file_name: smart_home_energy_consumption_large.csv
   target_column: electricity_cost
   datetime_column: timestamp
   frequency: 'H'  # datos por hora
