@@ -1,0 +1,16 @@
+paths:
+  raw_data: data/raw/
+  processed_data: data/processed/
+  models: models/
+  reports: reports/
+
+data:
+  target_column: electricity_cost
+  datetime_column: timestamp
+  frequency: 'H'  # datos por hora
+
+training:
+  test_size: 0.15
+  random_seed: 42
+  epochs: 100
+  batch_size: 32
