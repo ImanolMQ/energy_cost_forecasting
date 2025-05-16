@@ -1,1 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
 
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+
+# Conda environment files
+*.conda
+*.env
+*.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyCharm files
+.idea/
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Model files
+models/*
+!models/.gitkeep
+
+# Logs and reports
+logs/
+reports/*
+
+# Output
+*.log
