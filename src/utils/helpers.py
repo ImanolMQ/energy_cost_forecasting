@@ -1,4 +1,5 @@
 import yaml
+import os
 
 CONFIG_PATH = "config/config.yaml"
 
