@@ -16,3 +16,13 @@ training:
   random_seed: 42
   epochs: 100
   batch_size: 32
+
+plots:
+  tech_blues: [
+    "#00FFFF",  # Cyan
+    "#00BFFF",  # DeepSkyBlue
+    "#1E90FF",  # DodgerBlue
+    "#4682B4",  # SteelBlue
+    "#5F9EA0",  # CadetBlue
+    "#7DF9FF",  # Electric Blue
+  ]

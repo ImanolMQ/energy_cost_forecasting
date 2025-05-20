@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 from kaggle.api.kaggle_api_extended import KaggleApi
-from src.utils.helpers import load_config
+from src.utils.config import load_config
 
 def download_dataset_if_needed(dataset_name, file_name, save_path):
     """
